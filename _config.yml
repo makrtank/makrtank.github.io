@@ -26,12 +26,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 domain: makrtank.github.io
 url: "https://makrtank.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-github_username:  makrtank
+#github_username:  makrtank
 
 # Build settings
-theme: minima
+theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
+include:
+  - README.md
+  - index.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.

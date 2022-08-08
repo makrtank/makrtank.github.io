@@ -10,7 +10,9 @@ Thoughts, perspectives, research
     </li>
   {% endfor %}
 </ul>
+
 # About Me
+---
 I'm coming off the last year as a stay-at-home dad while we moved to and got settled in Portland, OR. 
 
 My background spans product engineering in semiconductors, mobile apps, consumer hardware, phone sensors, gas sensors, gas test system design and control, data analytics and running a backpacker guesthouse in Chiang Mai, Thailand somewhere in there. I'm a generalist that thrives in the murky early stages of projects wearing multiple hats, ramping up on new technology quickly and bridging between all corners of a company. 
@@ -22,7 +24,7 @@ Currently deep down the rabbit holes of web3, regenerative agriculture, regenera
 
 
 # Current Personal Projects
-
+---
 ## Dune Analytics
 Playing around with what data is available through Dune (emitted events but not call data unfortunately)<br>
 [On-chain Carbon Credits Retirement Dashboard](https://dune.com/makrtank/carbon-retirement-stats)

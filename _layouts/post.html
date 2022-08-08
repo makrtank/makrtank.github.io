@@ -38,7 +38,7 @@
 
         <section>
             <div id="title">
-                <h1>{{ site.title | default: site.github.repository_name }}</h1>
+                <h1><a href="{{ site.url }}">{{site.title | default: site.github.repository_name }}</a></h1>
                 <p>{{ site.description | default: site.github.project_tagline }}</p>
                 <hr>
                 <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{
@@ -47,6 +47,7 @@
                         href="https://twitter.com/mattgraham">mattgraham</a></span>
             </div>
             <div>
+                <a href="{{ site.url }}">&#x21E6; Home</a>
                 <h2>{{page.title}}</h2>
                 {% for tag in page.tags %}
                 <i><b>#{{tag}}</b></i>
